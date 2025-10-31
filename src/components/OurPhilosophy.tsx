@@ -1,46 +1,3 @@
-// export default function OurPhilosophy() {
-//     return (
-//       <section className="py-24 bg-black text-white">
-//         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
-          
-//           {/* Left Image */}
-//           {/* <div className="relative overflow-hidden rounded-2xl order-2 md:order-1">
-//             <img
-//               src="https://res.cloudinary.com/dypqxeikm/image/upload/v1761586487/the_stories_of_pashupatinath_fon10v.jpg"
-//               alt="Our Philosophy"
-//               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-//             />
-//             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/30 to-transparent"></div>
-//           </div> */}
-  
-//           {/* Right Content */}
-//           <div className="order-1 md:order-2">
-//             <div className="mb-6">
-//               <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Philosophy</h2>
-//               <div className="w-20 h-1 bg-[#FFCC00]"></div>
-//             </div>
-  
-//             <p className="text-[#FFCC00] text-2xl md:text-3xl font-semibold mb-6">
-//               Everyone has a story.
-//             </p>
-  
-//             <p className="text-gray-300 text-lg leading-relaxed mb-5">
-//               We help you tell yours — truthfully and beautifully.
-//             </p>
-  
-//             <p className="text-gray-300 text-lg leading-relaxed">
-//               Our work bridges art and advocacy — transforming lived experiences
-//               into visual narratives that invite audiences to see, feel, and act.
-//             </p>
-//           </div>
-//         </div>
-//       </section>
-//     );
-//   }
-
-
-
-import { Heart, Eye, Film } from 'lucide-react';
 
 export default function OurPhilosophy() {
   return (
@@ -89,13 +46,13 @@ export default function OurPhilosophy() {
           </div>
         </div> */}
 
-        <div className="bg-black border-l-4 border-[#FFCC00] p-8 md:p-12">
+        <div className="bg-black border-l-4 border- p-8 md:p-12">
           {/* <p className="text-xl md:text-2xl text-gray-300 leading-relaxed italic">
             Our work bridges art and advocacy — transforming lived experiences into visual
             narratives that invite audiences to see, feel, and act.
           </p> */}
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed italic">
-          Everyone has a story. We help you tell yours — truthfully and beautifully. Our work bridges art and advocacy — transforming lived experiences into visual
+          <span className='bg-[#FFCC00] text-black md:px-3'>Everyone has a story. We help you tell yours — truthfully and beautifully.</span>  Our work bridges art and advocacy — transforming lived experiences into visual
           narratives that invite audiences to see, feel, and act.
           </p>
         </div>

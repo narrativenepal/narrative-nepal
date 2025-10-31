@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Play, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+
 export default function Hero() {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   const [isInfoOpen, setIsInfoOpen] = useState(false);
@@ -14,7 +15,8 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-screen mt-16 overflow-hidden">
+    
+    <section className="relative h-screen overflow-hidden">
       {/* Video Background */}
       <video
         autoPlay
@@ -24,7 +26,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://videos.pexels.com/video-files/3125448/3125448-hd_1920_1080_25fps.mp4"
+          src="https://www.pexels.com/download/video/34514679/"
           type="video/mp4"
         />
         Your browser does not support the video tag.
@@ -54,7 +56,7 @@ export default function Hero() {
               <span>WATCH NOW</span>
             </button>
             <button
-             onClick={() => setIsInfoOpen(true)}
+              onClick={() => setIsInfoOpen(true)}
               className="border-2 border-white px-8 py-4 font-bold hover:bg-white hover:text-black transition-all"
             >
               LEARN MORE
@@ -123,7 +125,7 @@ export default function Hero() {
               >
                 <X className="w-6 h-6" />
               </button>
-             <div className="flex"> <h2 className="text-3xl md:px-3 rounded-lg md:py-1 font-bold mb-4 text-black  md:bg-[#FFCC00]">About the Documentary</h2></div>
+              <div className="flex"> <h2 className="text-3xl md:px-3 rounded-lg md:py-1 font-bold mb-4 text-black  md:bg-[#FFCC00]">About the Documentary</h2></div>
               <p className="text-lg text-gray-700 leading-relaxed">
                 *Kaligandaki Gaunpalika* explores the breathtaking landscapes,
                 cultural traditions, and everyday lives of the people residing

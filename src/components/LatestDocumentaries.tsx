@@ -1,49 +1,7 @@
 import { Clock, Play } from 'lucide-react';
+import { documentaries } from '../assets/ProjectAssets';
 
-const documentaries = [
-  {
-    id: 1,
-    title: "Kaligandaki Gaunpalika",
-    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761670565/kaligandaki_thumanil_2_e28bc7.png",
-    duration: "5 min",
-    category: "WILDLIFE"
-  },
-  {
-    id: 2,
-    title: "Anti Human Traffiking",
-    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761670565/anti_human_traffiking_-_thumnail_ip7tfy.png",
-    duration: "52 min",
-    category: "AWARENESS"
-  },
-  {
-    id: 3,
-    title: "Volcanic Wonders",
-    image: "https://images.pexels.com/photos/14458166/pexels-photo-14458166.jpeg?auto=compress&cs=tinysrgb&w=800",
-    duration: "48 min",
-    category: "SCIENCE"
-  },
-  {
-    id: 4,
-    title: "Sahara: Life in Extremes",
-    image: "https://images.pexels.com/photos/1574843/pexels-photo-1574843.jpeg?auto=compress&cs=tinysrgb&w=800",
-    duration: "50 min",
-    category: "EXPLORATION"
-  },
-  {
-    id: 5,
-    title: "Mountain Kingdoms",
-    image: "https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&w=800",
-    duration: "55 min",
-    category: "CULTURE"
-  },
-  {
-    id: 6,
-    title: "Coral Reefs in Crisis",
-    image: "https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=800",
-    duration: "42 min",
-    category: "ENVIRONMENT"
-  }
-];
+
 
 export default function LatestDocumentaries() {
   return (

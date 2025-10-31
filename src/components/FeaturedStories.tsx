@@ -1,34 +1,13 @@
 import { Play } from 'lucide-react';
+import { stories } from '../assets/ProjectAssets';
 
-const stories = [
-  {
-    id: 1,
-    title: "Beneath the Waves",
-    category: "OCEAN",
-    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761670565/anti_human_traffiking_-_thumnail_ip7tfy.png",
-    description: "Diving deep into the mysteries of marine life"
-  },
-  {
-    id: 2,
-    title: "Arctic Frontiers",
-    category: "CLIMATE",
-    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761670566/Untitled_design_9_kkljut.png",
-    description: "Documenting the rapid changes in polar regions"
-  },
-  {
-    id: 3,
-    title: "Ancient Civilizations",
-    category: "HISTORY",
-    image: "https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=800",
-    description: "Uncovering secrets of lost worlds"
-  }
-];
+
 
 export default function FeaturedStories() {
   return (
     <section className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between mb-12">
+       <div className="flex items-center justify-between mb-12">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Featured Stories</h2>
             <div className="w-20 h-1 bg-[#FFCC00]"></div>
@@ -59,7 +38,7 @@ export default function FeaturedStories() {
                   {story.category}
                 </div>
               </div>
-              <h3 className="text-2xl font-bold mb-2 group-hover:text-[#FFCC00] transition-colors">
+              <h3 className="text-xl font-bold mb-2 group-hover:text-[#FFCC00] transition-colors">
                 {story.title}
               </h3>
               <p className="text-gray-400 leading-relaxed">

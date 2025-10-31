@@ -11,23 +11,33 @@ import OurPhilosophy from './components/OurPhilosophy';
 import FounderNote from './components/FounderNote';
 import OurCollaborators from './components/OurCollaborators';
 import Contact from './components/Contact';
+import CustomCursor from './components/utils/CustomCursor';
+import Services from './components/Services';
+import NarrativeArchive from './components/NarrativeArchive';
+import DeveloperSignature from './components/DeveloperSignature';
 
 function App() {
   // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className="min-h-screen bg-black text-white">
+      <CustomCursor/>
+      
       <Header />
+      
       <Hero />
       <FeaturedStories />
       <AboutUs />
       <OurPhilosophy />
       <FounderNote />
-      {/* <OurCollaborators />
+      <OurCollaborators />
       <LatestDocumentaries />
-      <Contact /> */}
+      <Services/>
+      <NarrativeArchive/>
+      <Contact />
       {/* <Newsletter /> */}
-      {/* <Footer /> */}
+      <Footer />
+      <DeveloperSignature/>
     </div>
   );
 }

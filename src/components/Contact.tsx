@@ -2,7 +2,7 @@ import { Mail, Phone, MapPin, Globe, Facebook, Instagram, Youtube } from 'lucide
 
 export default function Contact() {
     return (
-        <section className="py-20 bg-zinc-950 border-t-4 border-[#FFCC00]" id='contact'>
+        <section className="py-20 bg-zinc-950 " id='contact'>
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-bold mb-4">Contact / Collaborate</h2>
@@ -70,19 +70,20 @@ export default function Contact() {
                     <h3 className="text-xl font-bold mb-6">Follow Our Journey</h3>
                     <div className="flex justify-center space-x-4">
                         <a
-                            href="#"
+                            href="https://www.facebook.com/narrativenepal
+"
                             className="w-14 h-14 bg-black hover:bg-[#FFCC00] rounded-full flex items-center justify-center transition-all group border-2 border-gray-800 hover:border-[#FFCC00]"
                         >
                             <Facebook className="w-6 h-6 group-hover:text-black transition-colors" />
                         </a>
                         <a
-                            href="#"
+                            href="https://www.instagram.com/narrativenepal "
                             className="w-14 h-14 bg-black hover:bg-[#FFCC00] rounded-full flex items-center justify-center transition-all group border-2 border-gray-800 hover:border-[#FFCC00]"
                         >
                             <Instagram className="w-6 h-6 group-hover:text-black transition-colors" />
                         </a>
                         <a
-                            href="#"
+                            href="https://www.youtube.com/@narrativenepal"
                             className="w-14 h-14 bg-black hover:bg-[#FFCC00] rounded-full flex items-center justify-center transition-all group border-2 border-gray-800 hover:border-[#FFCC00]"
                         >
                             <Youtube className="w-6 h-6 group-hover:text-black transition-colors" />

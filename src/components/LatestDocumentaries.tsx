@@ -9,7 +9,7 @@ export default function LatestDocumentaries() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between mb-12">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Latest Documentaries</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Documentary & Film Projects</h2>
             <div className="w-20 h-1 bg-[#FFCC00]"></div>
           </div>
           <button className="text-[#FFCC00] font-bold hover:underline hidden sm:block">

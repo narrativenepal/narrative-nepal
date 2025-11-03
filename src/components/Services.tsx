@@ -11,10 +11,10 @@ const campaigns = [
 
 export default function Services() {
   return (
-    <section className="py-20 bg-zinc-950" id='services'>
+    <section className=" bg-zinc-950 py-24 md:py-32" id='services'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Services</h2>
           <div className="w-20 h-1 bg-[#FFCC00] mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
           We create advocacy campaigns that educate, engage, and inspire, blending real human stories with cinematic visuals.

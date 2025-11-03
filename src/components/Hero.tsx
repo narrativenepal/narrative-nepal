@@ -15,8 +15,8 @@ export default function Hero() {
   };
 
   return (
-    
-    <section className="relative h-screen overflow-hidden">
+
+    <section className="relative  h-screen overflow-hidden">
       {/* Video Background */}
       <video
         autoPlay
@@ -26,7 +26,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://www.pexels.com/download/video/34514679/"
+          src="https://res.cloudinary.com/dypqxeikm/video/upload/v1762095205/14623565_3840_2160_25fps_r3xq8s.mp4"
           type="video/mp4"
         />
         Your browser does not support the video tag.
@@ -37,31 +37,41 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-end pb-20">
-        <div className="max-w-3xl">
+        <div className="max-w-3xl flex flex-col items-center md:items-start">
           <div className="inline-block px-3 py-1 bg-[#FFCC00] text-black text-xs font-bold mb-4">
-            FEATURED DOCUMENTARY
+            NARRATIVE NEPAL
           </div>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold mb-6 leading-tight">
-            Kaligandaki Gaunpalika
+          <h1 className="text-3xl flex flex-col sm:text-6xl md:text-5xl font-bold mb-6 leading-tight">
+            Everyone has a story. <span>We help you tell yours.</span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 leading-relaxed">
-            A glimpse into the heart of rural Nepal - its people, culture, and timeless beauty captured through the lens of Kaligandaki Gaunpalika.
+            We explore untold human stories, social change, and cultural memory through film and visual narrative.
           </p>
-          <div className="flex flex-wrap gap-4">
+          <div className="flex flex-nowrap gap-3 sm:gap-4">
             <button
-              onClick={() => setIsVideoOpen(true)}
-              className="flex items-center space-x-2 bg-[#FFCC00] text-black px-8 py-4 font-bold hover:bg-yellow-400 transition-all transform hover:scale-105"
+              onClick={() =>
+                document.querySelector("#documentaries")?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+              className="flex items-center space-x-2 bg-[#FFCC00] text-black px-5 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold hover:bg-yellow-400 transition-all transform hover:scale-105 whitespace-nowrap"
             >
               <Play className="w-5 h-5 fill-current" />
-              <span>WATCH NOW</span>
+              <span>Watch Our Films</span>
             </button>
+
             <button
-              onClick={() => setIsInfoOpen(true)}
-              className="border-2 border-white px-8 py-4 font-bold hover:bg-white hover:text-black transition-all"
+              onClick={() =>
+                document.querySelector("#contact")?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+              className="border-2 border-white px-5 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold hover:bg-white hover:text-black transition-all whitespace-nowrap"
             >
-              LEARN MORE
+              Collaborate With Us
             </button>
           </div>
+
         </div>
       </div>
 

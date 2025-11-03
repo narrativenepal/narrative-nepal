@@ -16,13 +16,13 @@ export default function Header() {
 
           {/* LOGO */}
           <div className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-lg bg-[#FFCC00] flex items-center justify-center font-bold text-black text-xl">
+            <button className="w-10 h-10 rounded-lg bg-none flex items-center justify-center font-bold text-black text-xl">
               <img
-                src="https://res.cloudinary.com/dv9s1kiz2/image/upload/v1761496033/416575684_691411486461622_8760184129598159117_n_znftff.jpg"
+                src="https://res.cloudinary.com/dypqxeikm/image/upload/v1762000148/416575684_691411486461622_8760184129598159117_n-removebg-preview_1_o2uq3n.png"
                 alt="logo"
                 className="rounded-lg"
               />
-            </div>
+            </button>
             {/* <h1 className="text-xl font-bold tracking-tight leading-tight">
               NARRATIVE <span className="text-[#FFCC00]">NEPAL</span>
             </h1> */}

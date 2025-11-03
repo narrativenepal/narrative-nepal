@@ -16,7 +16,7 @@ export default function FoundersNote() {
           {/* Right Side: Content */}
           <div className="order-1 md:order-2">
             <div className="mb-6">
-              <h2 className="text-4xl md:text-5xl font-bold mb-4">Founder’s Note</h2>
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">From the Documentarian</h2>
               <div className="w-20 h-1 bg-[#FFCC00]"></div>
             </div>
   

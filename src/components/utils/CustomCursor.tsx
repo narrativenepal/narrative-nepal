@@ -3,17 +3,25 @@ import { useEffect, useState } from "react";
 const CustomCursor = () => {
     const [position, setPosition] = useState({ x: 0, y: 0 });
     const [isHovering, setIsHovering] = useState(false);
+    const [isDesktop, setIsDesktop] = useState(true);
 
     useEffect(() => {
+      
+        const finePointer = window.matchMedia("(pointer: fine)").matches;
+        setIsDesktop(finePointer);
+
+        if (!finePointer) return; 
+
         const handleMove = (e: MouseEvent) => {
             setPosition({ x: e.clientX, y: e.clientY });
-            
+
             const target = e.target as HTMLElement;
-            const isInteractive = target.tagName === 'A' || 
-                                 target.tagName === 'BUTTON' ||
-                                 target.closest('a') || 
-                                 target.closest('button') ||
-                                 target.style.cursor === 'pointer';
+            const isInteractive =
+                target.tagName === "A" ||
+                target.tagName === "BUTTON" ||
+                target.closest("a") ||
+                target.closest("button") ||
+                target.style.cursor === "pointer";
             setIsHovering(isInteractive as any);
         };
 
@@ -21,13 +29,17 @@ const CustomCursor = () => {
         return () => window.removeEventListener("mousemove", handleMove);
     }, []);
 
+    if (!isDesktop) return null; 
+
     return (
         <>
             {/* Main cursor dot */}
             <div
                 className="fixed top-0 left-0 pointer-events-none z-[9999] transition-all duration-150 ease-out"
                 style={{
-                    transform: `translate(${position.x - 4}px, ${position.y - 4}px) scale(${isHovering ? 0 : 1})`,
+                    transform: `translate(${position.x - 4}px, ${position.y - 4}px) scale(${
+                        isHovering ? 0 : 1
+                    })`,
                 }}
             >
                 <div className="w-2 h-2 bg-[#FFCC00] rounded-full shadow-lg" />
@@ -37,15 +49,17 @@ const CustomCursor = () => {
             <div
                 className="fixed top-0 left-0 pointer-events-none z-[9998] transition-all duration-300 ease-out"
                 style={{
-                    transform: `translate(${position.x - 20}px, ${position.y - 20}px) scale(${isHovering ? 1.5 : 1})`,
+                    transform: `translate(${position.x - 20}px, ${position.y - 20}px) scale(${
+                        isHovering ? 1.5 : 1
+                    })`,
                 }}
             >
-                <div 
+                <div
                     className={`w-10 h-10 border rounded-full transition-colors duration-300 ${
-                        isHovering ? 'border-white border-2' : 'border-[#FFCC00] border'
+                        isHovering ? "border-white border-2" : "border-[#FFCC00] border"
                     }`}
                     style={{
-                        boxShadow: isHovering ? '0 0 20px rgba(255, 255, 255, 0.3)' : 'none'
+                        boxShadow: isHovering ? "0 0 20px rgba(255, 255, 255, 0.3)" : "none",
                     }}
                 />
             </div>
@@ -77,9 +91,6 @@ const CustomCursor = () => {
                     cursor: none !important;
                 }
             `}</style>
-
-            {/* Demo content for testing */}
-         
         </>
     );
 };

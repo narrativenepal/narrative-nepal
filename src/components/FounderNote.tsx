@@ -18,13 +18,13 @@ export default function FoundersNote() {
         {/* Right Side: Content */}
         <div className="order-1 md:order-2">
           <div className="mb-6">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">From the Documentarian</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">From the <span className="text-[#FFCC00]">Documentarian</span></h2>
             <div className="w-20 h-1 bg-[#FFCC00]"></div>
           </div>
 
-          <p className="text-[#FFCC00] text-xl md:text-2xl font-semibold mb-2">
+          {/* <p className="text-[#FFCC00] text-xl md:text-2xl font-semibold mb-2">
             From the Director
-          </p>
+          </p> */}
 
           <blockquote className="text-gray-300 text-lg leading-relaxed italic mb-6 border-l-4 border-[#FFCC00] pl-4">
             “My journey began in the fields of Chitwan, documenting the Musahar community’s struggle for recognition. That experience taught me that film can be a form of resistance - a way to restore dignity to forgotten lives. Narrative Nepal was born from that vision: to make documentaries that don’t just inform, but transform.”

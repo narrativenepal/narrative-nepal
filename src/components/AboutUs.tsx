@@ -86,15 +86,17 @@ export default function AboutUs() {
 
           <div className="text-center">
             <p className="text-xl md:text-2xl font-light text-gray-200 leading-relaxed flex flex-col md:flex-row items-center justify-center">
-              <span>shaping their world into</span>
+              <span>Shaping their world into stories that </span>
 
               <span className="font-semibold text-[#FFCC00] relative inline-block mt-2 md:mt-0 md:ml-2">
                 <ReactTyped
                   strings={[
-                    "extraordinary impact",
-                    "meaningful change",
-                    "lasting legacies",
-                    "powerful movements",
+                    "advocate.",
+                    "aspire.",
+                    "empower.",
+                    "inspire.",
+                    "illuminate.",
+                    " transform.",
                   ]}
                   typeSpeed={60}
                   backSpeed={40}

@@ -21,7 +21,7 @@ const documentaries = [
     title: "Ma Kali – Kaligandaki Gaupalika Documentary",
     description:
       "A documentary exploring the history, present, and future of Kaligandaki Gaupalika, showcasing its people, culture, and local development initiatives",
-    agency: "NCE Nepal / CARE Nepal / CEHRD",
+    agency: "Kaligandaki Gaupalika",
     duration: "5:20",
     category: "Kaligandaki Gaupalika",
     videoId: "VIDEO_ID_2",
@@ -195,10 +195,10 @@ export default function LatestDocumentaries() {
                 <span className="font-semibold text-white">Agency:</span>{" "}
                 {selectedDoc.agency}
               </p>
-              <p className="text-sm mt-2 text-gray-400">
+              {/* <p className="text-sm mt-2 text-gray-400">
                 <span className="font-semibold text-white">Duration:</span>{" "}
                 {selectedDoc.duration}
-              </p>
+              </p> */}
               <p className="text-sm mt-1 text-gray-400">
                 <span className="font-semibold text-white">Category:</span>{" "}
                 {selectedDoc.category}

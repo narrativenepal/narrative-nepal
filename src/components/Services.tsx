@@ -3,7 +3,7 @@ import { Video, FileText, Scissors, MapPin, Megaphone, Users } from 'lucide-reac
 const campaigns = [
   { icon: Video, name: "Documentary Production", color: "bg-blue-600" },
   { icon: FileText, name: "Research & Script Writing", color: "bg-green-600" },
-  { icon: Scissors, name: "Editing & Post-production", color: "bg-purple-600" },
+  { icon: Scissors, name: "Editing & Post-Production", color: "bg-purple-600" },
   { icon: MapPin, name: "Line Production", color: "bg-red-600" },
   { icon: Users, name: "Event Documentation", color: "bg-orange-600" },
   { icon: Megaphone, name: "PSAs for NGOs & Social Orgs", color: "bg-yellow-600" }
@@ -14,10 +14,10 @@ export default function Services() {
     <section className=" bg-zinc-950 py-24 md:py-32" id='services'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Services</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4">Services</h2>
           <div className="w-20 h-1 bg-[#FFCC00] mx-auto mb-8"></div>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-          We create advocacy campaigns that educate, engage, and inspire, blending real human stories with cinematic visuals.
+          We create documentaries and campaigns that educate, inspire, and bring real stories to life with cinematic depth.
           </p>
         </div>
 

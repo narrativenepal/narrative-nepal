@@ -48,8 +48,7 @@ export default function Hero() {
             We explore untold human stories, social change, and cultural memory through film and visual narrative.
           </p>
           <div className="flex flex-nowrap gap-3 sm:gap-4">
-            <button
-              onClick={() =>
+            <button               onClick={() =>
                 document.querySelector("#documentaries")?.scrollIntoView({
                   behavior: "smooth",
                 })

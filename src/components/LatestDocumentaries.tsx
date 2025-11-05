@@ -14,7 +14,7 @@ const documentaries = [
     duration: "3:45",
     category: "PSA Campaign",
     videoId: "VIDEO_ID_1",
-    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762156786/Election-Commission_qzmd1p.jpg",
+    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343751/election_comission_tz5ah9.png",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ const documentaries = [
     duration: "10:00",
     category: "Documentary",
     videoId: "VIDEO_ID_5",
-    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762156786/solid_health_hxmyvi.jpg",
+    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343799/solid_health_project_1_p87tjz.png",
   },
   {
     id: 6,
@@ -72,7 +72,7 @@ const documentaries = [
     duration: "8:35",
     category: "Documentary",
     videoId: "VIDEO_ID_6",
-    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762157284/plantation_mopxtn.jpg",
+    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343801/replant_ylpr3d.png",
   },
   {
     id: 7,
@@ -83,7 +83,7 @@ const documentaries = [
     duration: "5:20",
     category: "Education",
     videoId: "VIDEO_ID_2",
-    image: "/images/udaan_project.jpg",
+    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343769/udan_project_d1lv9g.png",
   },
   {
     id: 8,
@@ -94,7 +94,7 @@ const documentaries = [
     duration: "2:15",
     category: "Brand Video",
     videoId: "VIDEO_ID_3",
-    image: "/images/khatapana.jpg",
+    image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343725/khatapana_smotoh.png",
   },
 ];
 

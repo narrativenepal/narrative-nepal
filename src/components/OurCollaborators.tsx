@@ -10,8 +10,8 @@ export default function OurCollaborators() {
         </h2>
         <div className="w-20 h-1 bg-[#FFCC00] mx-auto mb-8"></div>
         <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-          We collaborate with partners who believe in the power of storytelling
-          to drive change.
+        Together, we tell stories not for people, but with them.
+        Every collaboration is a shared vision of change, curiosity, and compassion.
         </p>
       </div>
 

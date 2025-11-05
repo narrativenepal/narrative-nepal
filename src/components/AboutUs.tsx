@@ -54,9 +54,8 @@ export default function AboutUs() {
               return (
                 <div
                   key={entity.label}
-                  className={`relative group cursor-pointer transition-all duration-500 ${
-                    isActive ? 'scale-105' : 'scale-100 opacity-70 hover:opacity-100'
-                  }`}
+                  className={`relative group cursor-pointer transition-all duration-500 ${isActive ? 'scale-105' : 'scale-100 opacity-70 hover:opacity-100'
+                    }`}
                 >
                   <div className={`
                     relative p-6 rounded-xl border transition-all duration-500
@@ -66,13 +65,11 @@ export default function AboutUs() {
                     }
                   `}>
                     <Icon
-                      className={`w-8 h-8 mb-3 mx-auto transition-colors duration-500 ${
-                        isActive ? 'text-[#FFCC00]' : 'text-gray-400 group-hover:text-[#FFCC00]'
-                      }`}
+                      className={`w-8 h-8 mb-3 mx-auto transition-colors duration-500 ${isActive ? 'text-[#FFCC00]' : 'text-gray-400 group-hover:text-[#FFCC00]'
+                        }`}
                     />
-                    <h3 className={`text-base font-semibold capitalize mb-1 transition-colors duration-500 ${
-                      isActive ? 'text-[#FFCC00]' : 'text-white'
-                    }`}>
+                    <h3 className={`text-base font-semibold capitalize mb-1 transition-colors duration-500 ${isActive ? 'text-[#FFCC00]' : 'text-white'
+                      }`}>
                       {entity.label}
                     </h3>
                     <p className="text-xs text-gray-400 leading-relaxed">
@@ -88,15 +85,16 @@ export default function AboutUs() {
           </div>
 
           <div className="text-center">
-            <p className="text-xl md:text-2xl font-light text-gray-200 leading-relaxed">
-              shaping their world into{" "}
-              <span className="font-semibold text-[#FFCC00] relative inline-block">
+            <p className="text-xl md:text-2xl font-light text-gray-200 leading-relaxed flex flex-col md:flex-row items-center justify-center">
+              <span>shaping their world into</span>
+
+              <span className="font-semibold text-[#FFCC00] relative inline-block mt-2 md:mt-0 md:ml-2">
                 <ReactTyped
                   strings={[
                     "extraordinary impact",
                     "meaningful change",
                     "lasting legacies",
-                    "powerful movements"
+                    "powerful movements",
                   ]}
                   typeSpeed={60}
                   backSpeed={40}

@@ -14,6 +14,7 @@ import CustomCursor from './components/utils/CustomCursor';
 import Loader from './components/utils/Loader';
 import { motion } from 'framer-motion';
 import DocumentingChanges from './components/DocumentingChanges';
+import LiveSoonOverlay from './components/utils/LiveSoonOverlay';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,7 +44,8 @@ function App() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <CustomCursor />
+            <LiveSoonOverlay/>
+            {/* <CustomCursor />
             <Header />
             <Hero />
             <AboutUs />
@@ -55,7 +57,7 @@ function App() {
             <NarrativeArchive />
             <Contact />
             <Footer />
-            <DeveloperSignature />
+            <DeveloperSignature /> */}
           </motion.div>
         </>
       )}

@@ -6,14 +6,14 @@ import { motion, AnimatePresence } from "framer-motion";
 const documentaries = [
   {
     id: 1,
-    title: "Election Commission Nepal – PSA Campaign",
+    title: "Youth in Election - Election Commission Nepal",
     description:
       "Two public service videos featuring Dayahang Rai and Nepali youths promoting fair and inclusive elections.",
     agency:
       "International Foundation for Electoral Systems Nepal / Election Commission Nepal",
-    duration: "3:45",
-    category: "PSA Campaign",
-    videoId: "VIDEO_ID_1",
+    duration: "0:48",
+    category: "PSA ",
+    videoId: "https://youtu.be/SA1lD1WKTZY",
     image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343751/election_comission_tz5ah9.png",
   },
   {
@@ -22,9 +22,9 @@ const documentaries = [
     description:
       "A documentary exploring the history, present, and future of Kaligandaki Gaupalika, showcasing its people, culture, and local development initiatives",
     agency: "Kaligandaki Gaupalika",
-    duration: "5:20",
+    duration: "5:48",
     category: "Kaligandaki Gaupalika",
-    videoId: "VIDEO_ID_2",
+    videoId: "https://www.youtube.com/watch?v=JNHhofcsXDg",
     image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761670565/kaligandaki_thumanil_2_e28bc7.png",
   },
   {
@@ -33,9 +33,9 @@ const documentaries = [
     description:
       "A creative 2D video introducing large cardamom as the “King of Spices” — showcasing its uses in Nepal and presenting it to the world.",
     agency: "Kings College / FAO Nepal",
-    duration: "2:15",
+    duration: "2:01",
     category: "Explainer Video",
-    videoId: "VIDEO_ID_3",
+    videoId: "https://www.youtube.com/watch?v=qOXlWJH-HkE",
     image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761670566/i_am_large_cardamom_thumanail_da0b10.png",
   },
   {
@@ -45,9 +45,9 @@ const documentaries = [
       "Public awareness video raising voices for safe migration and preventing human trafficking in Makwanpur District.",
     agency:
       "Women Skill Creation Center Nepal / AWO International / BMZ",
-    duration: "4:10",
+    duration: "1:29",
     category: "PSA",
-    videoId: "VIDEO_ID_4",
+    videoId: "https://www.youtube.com/watch?v=-n98NPgdBtA",
     image:
       "https://res.cloudinary.com/dypqxeikm/image/upload/v1761670565/anti_human_traffiking_-_thumnail_ip7tfy.png",
   },
@@ -69,9 +69,9 @@ const documentaries = [
     description:
       "A film highlighting how rural farmers, women cooperatives, and local enterprises adapt to climate challenges and reduce post-harvest losses through innovative storage solutions.",
     agency: "iDE Nepal (partners: SDF, RWDC, MNBBL, SIL, NAF Seed Pvt. Ltd.)",
-    duration: "8:35",
+    duration: "8:02",
     category: "Documentary",
-    videoId: "VIDEO_ID_6",
+    videoId: "https://www.youtube.com/watch?v=oqE6s2qhPuA",
     image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343801/replant_ylpr3d.png",
   },
   {
@@ -105,7 +105,7 @@ export default function LatestDocumentaries() {
   const displayedDocs = showAll ? documentaries : documentaries.slice(0, 6);
 
   const handleVideoClick = (videoId: string) => {
-    window.open(`https://www.youtube.com/watch?v=${videoId}`, "_blank");
+    window.open(`${videoId}`, "_blank");
   };
 
   return (

@@ -2,7 +2,7 @@ import { Facebook, Instagram, Twitter } from "lucide-react";
 
 export default function FoundersNote() {
   return (
-    <section className="py-24 bg-black text-white">
+    <section className="py-24 bg-[#0a0a0a] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
 
         {/* Left Side: Image */}

@@ -2,7 +2,7 @@ import { collaborators } from "../assets/ProjectAssets";
 
 export default function OurCollaborators() {
   return (
-    <section className=" py-24 md:py-32 w-full  bg-zinc-950 flex flex-col justify-center overflow-hidden">
+    <section className=" py-24 md:py-32 w-full  bg-[#0a0a0a] flex flex-col justify-center overflow-hidden">
       {/* Heading */}
       <div className="text-center mb-12 px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold mb-4 text-white">

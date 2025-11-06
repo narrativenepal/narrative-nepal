@@ -4,9 +4,9 @@ import { Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-black border-t border-gray-900 text-gray-300 ">
+    <footer className="bg-[#0a0a0a] border-t border-gray-900 text-gray-300 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="border-t border-gray-900 pt-8">
+        <div className=" pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left space-y-6 md:space-y-0">
 
             {/* Left section: Logo and Description */}

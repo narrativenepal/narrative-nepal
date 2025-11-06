@@ -5,7 +5,7 @@ import { stories } from '../assets/ProjectAssets';
 
 export default function FeaturedStories() {
   return (
-    <section className="py-20 bg-black">
+    <section className="py-20 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
        <div className="flex items-center justify-between mb-12">
           <div>

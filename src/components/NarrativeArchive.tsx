@@ -6,7 +6,7 @@ export default function NarrativeArchive() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
-    <section className="py-24 md:py-32 bg-zinc-950" id="archive">
+    <section className="py-24 md:py-32 bg-[#0a0a0a]" id="archive">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-12">

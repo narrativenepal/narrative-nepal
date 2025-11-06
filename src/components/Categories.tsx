@@ -11,7 +11,7 @@ const categories = [
 
 export default function Categories() {
   return (
-    <section className="py-20 bg-zinc-950">
+    <section className="py-20 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
          <h2 className="text-4xl md:text-5xl font-bold mb-4">Explore by Category</h2>

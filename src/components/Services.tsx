@@ -11,7 +11,7 @@ const campaigns = [
 
 export default function Services() {
   return (
-    <section className=" bg-zinc-950 py-24 md:py-32" id='services'>
+    <section className=" bg-[#0a0a0a] py-24 md:py-32" id='services'>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Services</h2>

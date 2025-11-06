@@ -40,7 +40,7 @@ export default function FoundersNote() {
              {/* Social Media Icons */}
              <div className="flex space-x-6">
             <a
-              href="https://facebook.com/"
+              href="https://www.facebook.com/suvashchaulagai/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-[#FFCC00] transition-colors duration-300"
@@ -48,7 +48,7 @@ export default function FoundersNote() {
               <Facebook className="w-6 h-6" />
             </a>
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/suvashchaulagai/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-[#FFCC00] transition-colors duration-300"
@@ -56,7 +56,7 @@ export default function FoundersNote() {
               <Instagram className="w-6 h-6" />
             </a>
             <a
-              href="https://twitter.com/"
+              href="https://x.com/suvaschaulagai"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-[#FFCC00] transition-colors duration-300"

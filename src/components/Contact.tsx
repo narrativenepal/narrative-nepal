@@ -5,7 +5,7 @@ export default function Contact() {
         <section className="py-24 md:py-32 bg-zinc-950 " id='contact'>
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl md:text-5xl font-bold mb-4">The Invitation</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold mb-4">Let’s tell your story.</h2>
                     <div className="w-20 h-1 bg-[#FFCC00] mx-auto mb-8"></div>
                     <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
                         We collaborate with organizations, filmmakers, researchers, and communities to produce

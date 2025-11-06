@@ -23,7 +23,7 @@ export default function NarrativeArchive() {
 
         {/* Video Section Styled Like Documentary Cards */}
         <div className="flex justify-center">
-          <article className="group relative w-full max-w-4xl rounded-lg overflow-hidden cursor-pointer shadow-xl">
+          <article className="group relative w-full max-w-3xl rounded-lg overflow-hidden cursor-pointer shadow-xl">
             {isPlaying ? (
              <iframe
                 className="w-full aspect-video rounded-lg"

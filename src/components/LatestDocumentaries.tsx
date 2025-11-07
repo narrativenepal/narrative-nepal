@@ -93,7 +93,7 @@ const documentaries = [
     agency: "Finnove Technologies",
     duration: "2:15",
     category: "Brand Video",
-    videoId: "VIDEO_ID_3",
+    videoId: "https://youtu.be/SXutRI6azEU",
     image: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762343725/khatapana_smotoh.png",
   },
 ];

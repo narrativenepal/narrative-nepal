@@ -36,7 +36,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent"></div>
 
       {/* Content */}
-      <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-end pb-20">
+      <div className="relative h-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-end pb-20">
         <div className="max-w-3xl flex flex-col items-center md:items-start">
           <div className="inline-block px-3 py-1 bg-[#FFCC00] text-black text-xs font-bold mb-4">
             NARRATIVE NEPAL
@@ -48,11 +48,11 @@ export default function Hero() {
             We explore untold human stories, social change, and cultural memory through film and visual narrative.
           </p>
           <div className="flex flex-nowrap gap-3 sm:gap-4">
-            <button               onClick={() =>
-                document.querySelector("#documentaries")?.scrollIntoView({
-                  behavior: "smooth",
-                })
-              }
+            <button onClick={() =>
+              document.querySelector("#documentaries")?.scrollIntoView({
+                behavior: "smooth",
+              })
+            }
               className="flex items-center space-x-2 bg-[#FFCC00] text-black px-5 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold hover:bg-yellow-400 transition-all transform hover:scale-105 whitespace-nowrap"
             >
               <Play className="w-5 h-5 fill-current" />

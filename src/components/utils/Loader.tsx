@@ -22,7 +22,7 @@ export default function Loader() {
 
       {/* Subtle loading text */}
       <motion.div
-        className="mt-6 text-gray-400 tracking-widest text-sm"
+        className="mt-6 text-gray-400 tracking-widest text-sm text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.5, duration: 1 }}

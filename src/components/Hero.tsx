@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
 
-    <section className="relative  h-screen overflow-hidden">
+    <section className="relative  h-screen ">
       {/* Video Background */}
       <video
         autoPlay
@@ -41,19 +41,19 @@ export default function Hero() {
           <div className="inline-block px-3 py-1 bg-[#FFCC00] text-black text-xs font-bold mb-4">
             NARRATIVE NEPAL
           </div>
-          <h1 className="text-3xl flex flex-col sm:text-6xl md:text-5xl font-bold mb-6 leading-tight">
+          <h1 className="text-2xl flex flex-col sm:text-6xl md:text-5xl font-bold mb-6 leading-tight">
             Everyone has a story. <span>We help you tell yours.</span>
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-300 mb-8 leading-relaxed">
+          <p className="text-md sm:text-2xl text-gray-300 mb-8 leading-relaxed text-center md:text-left">
             We explore untold human stories, social change, and cultural memory through film and visual narrative.
           </p>
           <div className="flex flex-nowrap gap-3 sm:gap-4">
-            <button onClick={() =>
-              document.querySelector("#documentaries")?.scrollIntoView({
-                behavior: "smooth",
-              })
-            }
-              className="flex items-center space-x-2 bg-[#FFCC00] text-black px-5 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold hover:bg-yellow-400 transition-all transform hover:scale-105 whitespace-nowrap"
+            <button               onClick={() =>
+                document.querySelector("#documentaries")?.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+              className="flex items-center space-x-2 bg-[#FFCC00] text-black px-2 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold hover:bg-yellow-400 transition-all transform hover:scale-105 whitespace-nowrap"
             >
               <Play className="w-5 h-5 fill-current" />
               <span>Watch Our Films</span>
@@ -65,7 +65,7 @@ export default function Hero() {
                   behavior: "smooth",
                 })
               }
-              className="border-2 border-white px-5 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold hover:bg-white hover:text-black transition-all whitespace-nowrap"
+              className="border-2 border-white px-2 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-bold hover:bg-white hover:text-black transition-all whitespace-nowrap"
             >
               Collaborate With Us
             </button>

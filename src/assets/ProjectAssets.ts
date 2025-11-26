@@ -24,12 +24,12 @@ export const collaborators = [
   {
     name: "FAO Nepal",
     logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761823670/fao_nepal-modified-removebg-preview_aplbzy.png",
-    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761587591/fao_nepal_yynu6w.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171945/fao_nepal-removebg-preview_hlaqi2.png",
   },
   {
     name: "IDE Nepal",
     logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761823670/ide_nepal-modified-removebg-preview_hxkfka.png",
-    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1761587791/ide_nepal_jll3bx.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171947/ide_nepal-removebg-preview_ps7ctq.png",
   },
   {
     name: "Election Commission Nepal",
@@ -41,6 +41,42 @@ export const collaborators = [
     logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762155982/download_om6fip.png",
     colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1762155988/Kings-college-thumbnail-200x200_ictpum.png",
   },
+  {
+    name: "KTM Rush",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171104/image_r0zgi4.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171132/images-removebg-preview_ushtpr.png",
+  },
+  {
+    name: "Yagyashala Nepal",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171104/image_7_hhfjjl.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171179/yagyashala_nepal_jxfnku.png",
+  },
+  {
+    name: "Kumon Nepal",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171178/KUMON_LOgo_PNG_1_1_rbbnkp.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171178/KUMON_LOgo_PNG_1_1_rbbnkp.png",
+  },
+  {
+    name: "NEDS",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171106/image_3_r5y7ua.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171134/neds_logo__1_-removebg-preview_yu0ftv.png",
+  },
+  {
+    name: "NCE",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171106/image_2_fyn7f6.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171134/NCE_Logo_High_resolution_copy__1___1_-removebg-preview_sf4sff.png",
+  },
+  {
+    name: "Dai Nippon",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171105/image_5_hqx0nd.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171134/logo_dai_nippon-removebg-preview_cv5mxg.png",
+  },
+  {
+    name: "IFES",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171740/image_8_tfonsk.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171132/ifes-removebg-preview_qs06y2.png",
+  },
+
 ];
 
 export const documentaries = [

@@ -22,14 +22,20 @@ export default function Loader() {
 
       {/* Subtle loading text */}
       <motion.div
-        className="mt-6 text-gray-400 tracking-widest text-sm text-center"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 1 }}
-
-      >
-        Everyone has a story. We help you tell yours.
-      </motion.div>
+    className="px-4 md:px-0 max-w-md mx-auto text-gray-400 tracking-widest text-base text-center"
+     initial={{ opacity: 0, scale: 0.9 }}
+        animate={{
+          opacity: [0, 1, 1, 0.9],
+          scale: [0.9, 1, 1.05, 1],
+        }}
+        transition={{
+          duration: 2.5, // total cycle
+          ease: "easeInOut",
+          repeat: Infinity, // repeat breathing
+        }}
+>
+  Everyone has a story. We help you tell yours.
+</motion.div>
     </div>
   );
 }

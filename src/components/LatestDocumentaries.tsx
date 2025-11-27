@@ -109,8 +109,19 @@ export default function LatestDocumentaries() {
   };
 
   return (
-    <section className="py-24 md:py-32 bg-[#0a0a0a]" id="documentaries">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section
+      id="documentaries"
+      className="relative py-24 md:py-32 bg-black/30 bg-fixed bg-center bg-cover"
+      style={{
+        backgroundImage:
+          "url('https://res.cloudinary.com/dypqxeikm/image/upload/v1764260644/Sailung_Panorama_2_1_vqmsir.jpg')",
+      }}
+    >
+      {/* Overlay for readability */}
+      <div className="absolute inset-0 bg-black/60"></div>
+
+      {/* Content */}
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="flex items-center justify-between mb-12">
           <div>
@@ -166,7 +177,7 @@ export default function LatestDocumentaries() {
         </div>
       </div>
 
-      {/* Modal for Description */}
+      {/* Modal */}
       <AnimatePresence>
         {selectedDoc && (
           <motion.div
@@ -195,10 +206,6 @@ export default function LatestDocumentaries() {
                 <span className="font-semibold text-white">Agency:</span>{" "}
                 {selectedDoc.agency}
               </p>
-              {/* <p className="text-sm mt-2 text-gray-400">
-                <span className="font-semibold text-white">Duration:</span>{" "}
-                {selectedDoc.duration}
-              </p> */}
               <p className="text-sm mt-1 text-gray-400">
                 <span className="font-semibold text-white">Category:</span>{" "}
                 {selectedDoc.category}

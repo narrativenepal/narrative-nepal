@@ -16,7 +16,7 @@ export default function OurCollaborators() {
       </div>
 
       {/* Full-width sliding container */}
-      <div className="overflow-hidden relative w-full">
+      <div className="overflow-hidden relative w-full bg-white  md:py-10">
         <div className="flex gap-x-8 animate-slide whitespace-nowrap hover:pause-animation">
           {collaborators.concat(collaborators).map((collab, index) => (
             <div

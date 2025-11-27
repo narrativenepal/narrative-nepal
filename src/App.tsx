@@ -33,11 +33,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
-      {isLoading ? (
-        <Loader />
-      ) : (
-        <>
+     <>
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -58,8 +54,6 @@ function App() {
             <DeveloperSignature />
           </motion.div>
         </>
-      )}
-    </div>
   );
 }
 

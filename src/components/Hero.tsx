@@ -26,7 +26,7 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full object-cover"
       >
         <source
-          src="https://res.cloudinary.com/dypqxeikm/video/upload/v1762095205/14623565_3840_2160_25fps_r3xq8s.mp4"
+          src="https://res.cloudinary.com/dypqxeikm/video/upload/v1764345953/herovideo_i2pkpl.mov"
           type="video/mp4"
         />
         Your browser does not support the video tag.

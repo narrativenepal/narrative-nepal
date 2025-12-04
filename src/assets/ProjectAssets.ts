@@ -76,6 +76,21 @@ export const collaborators = [
     logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171740/image_8_tfonsk.png",
     colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171132/ifes-removebg-preview_qs06y2.png",
   },
+  {
+    name: "Shoekare",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171105/image_1_zfgdzf.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764171132/shoecare-logo__1___1_-removebg-preview_ey1o48.png",
+  },
+  {
+    name: "OAG",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764855848/image_10_v9rhze.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764855723/oag_logo_en_2_dg5zjf.png",
+  },
+  {
+    name: "WoSCC",
+    logo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764855851/image_11_p4xu8t.png",
+    colorLogo: "https://res.cloudinary.com/dypqxeikm/image/upload/v1764855921/WOSCC-Logo_2_g0pmpv.png",
+  },
 
 ];
 

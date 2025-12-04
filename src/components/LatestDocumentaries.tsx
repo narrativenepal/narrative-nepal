@@ -114,7 +114,7 @@ export default function LatestDocumentaries() {
       className="relative py-24 md:py-32 bg-black/30 bg-fixed bg-center bg-cover"
       style={{
         backgroundImage:
-          "url('https://res.cloudinary.com/dypqxeikm/image/upload/v1764260644/Sailung_Panorama_2_1_vqmsir.jpg')",
+          "url('https://res.cloudinary.com/dypqxeikm/image/upload/v1764856175/the_stories_of_pashupatinath_1_ufpr5e.jpg')",
       }}
     >
       {/* Overlay for readability */}
